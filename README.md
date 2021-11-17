@@ -11,9 +11,9 @@ https://www.codinglabweb.com
 
 ````
 npx ng g m modules/auth --route auth -m app
-npx ng g c modules/components/auth
-npx ng g c modules/components/auth/login
-npx ng g c modules/components/auth/register
+npx ng g c modules/auth/components/auth --route auth -m auth
+npx ng g c modules/auth/components/auth/login
+npx ng g c modules/auth/components/auth/register
 
 npx ng g g guards/auth
 npx ng g s services/auth
